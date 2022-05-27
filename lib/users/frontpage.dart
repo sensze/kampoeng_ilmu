@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// import 'package:http/http.dart' as http;
 
 class Frontpage extends StatefulWidget {
   @override
@@ -6,6 +7,15 @@ class Frontpage extends StatefulWidget {
 }
 
 class _FrontpageState extends State<Frontpage> {
+
+  @override
+  void initState(){
+    super.initState();
+  }
+  void dispose(){
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -38,22 +38,22 @@ class _HomepageState extends State<Homepage> with SingleTickerProviderStateMixin
           style: TextStyle(fontSize: 15),
           decoration: InputDecoration(
             hintText: "Search",
-            prefixIcon: Icon(Icons.search, color: Pallete.green,),
+            prefixIcon: Icon(Icons.search, color: Colors.black,),
             contentPadding: const EdgeInsets.symmetric(vertical: 10.0),
             border: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(10),
+              borderRadius: BorderRadius.circular(8),
               borderSide: new BorderSide(color: Colors.white),
             ),
-            fillColor: Color(0xfff3f34),
+            fillColor: Color(0xffffffff),
             filled: true,
           ),
         ),
-      backgroundColor: Pallete.bg1,
+      backgroundColor: Pallete.bgnavbar,
       bottom: TabBar(
         controller: _tabController,
         indicatorColor: Pallete.green,
         labelColor: Pallete.green,
-        unselectedLabelColor: Colors.grey,
+        unselectedLabelColor: Colors.white,
         labelPadding: EdgeInsets.all(0),
         tabs: [
           Tab(text: "Homepage"),
