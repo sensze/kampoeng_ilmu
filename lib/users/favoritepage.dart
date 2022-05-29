@@ -16,7 +16,7 @@ class _FavoritePageState extends State<FavoritePage> {
         child:
 
         const Text(
-          'Launcher Page',
+          'Favorite Page',
         ),
 
       ),

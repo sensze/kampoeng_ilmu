@@ -16,7 +16,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
         child:
 
         const Text(
-          'Launcher Page',
+          'Checkout Page',
         ),
 
       ),

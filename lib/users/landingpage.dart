@@ -27,7 +27,7 @@ class _LandingPageState extends State<LandingPage> {
     return Scaffold(
       body: _container[_bottomNavCurrentIndex],
       bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Pallete.bg1,
+        selectedItemColor: Pallete.green,
         type: BottomNavigationBarType.fixed,
         onTap: (index){
           setState(() {

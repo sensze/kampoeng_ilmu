@@ -16,7 +16,7 @@ class _TransactionPageState extends State<TransactionPage> {
         child:
 
         const Text(
-          'Launcher Page',
+          'Transaction Page',
         ),
 
       ),
